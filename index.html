@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Using semantic elements of HTML</title>
+    <link rel="stylesheet" href="/styles/style.css">
+  </head>
+
+  <body>
+    <header>
+      <hr>
+      <h1>WHALES</h1>
+      <hr />
+    </header>
+
+    <nav>
+      <p>Quick reference to chapter: <a href="#facts">| 1 | </a> <a href="#matter">2 | <a href="#threats">3 | <a href="#info">4 | <a href="#add">5 |</a></p>
+      
+    </nav>
+
+    <article>
+      <h2 id="facts">1. FACTS</h2>
+      <blockquote cite="https://www.worldwildlife.org/species/whale">
+        <strong>
+          Despite living in the water, whales breathe air. And like humans, they
+          are warm-blooded mammals who nurse their young. A thick layer of fat
+          called blubber insulates them from cold ocean waters.
+        </strong>
+      </blockquote>
+      <cite><a href="https://www.worldwildlife.org" target="_blank">www.worldwildlife.org</a></cite><img src="/img/art1.jpg" alt="whale" title="whale">
+    </article>
+
+    <section>
+      <h3>Listen to the sounds of whales:</h3>
+      <audio controls>
+        <source src="/audio/SoundOfWhale.mp3" type="audio/mp3" />
+      </audio>
+    </section>
+
+    <section>
+      <h3>Look at the real whale:</h3>
+      <video
+        controls
+        width="300"
+        height="300"
+        loop
+        muted
+        preload="auto"
+        poster="/img/imgVideo.jpg"
+      >
+        <source src="/video/Whale.mp4" type="video/mp4" />
+      </video>
+    </section>
+
+    <article>
+      <h2 id="matter">2. WHY THEY MATTER</h2>
+      <blockquote cite="https://www.worldwildlife.org/species/whale">
+        <strong>
+          Whales are at the top of the food chain and have an important role in
+          the overall health of the marine environment. Whales play a
+          significant role in capturing carbon from the atmosphere; each great
+          whale sequesters an estimated 33 tons of CO2 on average, thus playing
+          their part in the fight against climate change.
+        </strong>
+      </blockquote>
+      <cite><a href="https://www.worldwildlife.org" target="_blank">www.worldwildlife.org</a></cite><img src="/img/art2.jpg" alt="whale" title="whale">
+    </article>
+
+    <article>
+      <h2 id="threats">3. THREATS</h2>
+      <blockquote cite="https://www.worldwildlife.org/species/whale">
+        <strong>
+          Despite a moratorium on commercial whaling and a ban on international
+          trade of whale products, three countries—Iceland, Japan, and
+          Norway—continue their commercial whale hunts. Over 1,000 whales a year
+          are killed for such commercial purposes. The blue whale, the largest
+          animal ever known to have existed, was almost exterminated in the 20th
+          century due to commercial whaling.
+        </strong>
+      </blockquote>
+      <cite><a href="https://www.worldwildlife.org" target="_blank">www.worldwildlife.org</a></cite><img src="/img/art3.jpg" alt="vessel" title="vessel">
+    </article>
+
+    <article>
+      <h2 id="info">4. Information about author of this page</h2>
+      <p>
+        Click the button on the right for more information.
+        <button>
+          <a href="/pages/index_en.html" target="information">show info</a>
+        </button>
+      </p>
+
+      <iframe
+        src="/pages/wait.html"
+        name="information"
+        height="300px"
+        width="100%"
+        title="Information about author of this page"
+      ></iframe>
+    </article>
+    
+    <article>
+      <h2 id="add">5. Additional information</h2>
+      
+      <iframe width="100%" height="400"
+        src="https://www.youtube.com/embed/dEBVe8Ij7JU"
+        frameborder="0"
+        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen>
+      </iframe>
+    </article>    
+
+    <footer><hr>
+      <p>
+        <strong>
+          <em>
+            Disclamer: materials from
+            <a href="www.worldwildlife.org">www.worldwildlife.org</a> were used
+            on this page.
+          </em><br><br><a href="#">   ↑ Back to the top ↑</a>
+        </strong>
+      </p>
+      <hr />
+    </footer>
+  </body>
+</html>
