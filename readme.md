@@ -2,14 +2,13 @@
 
 _LMS Beetroot Academy progress_
 
-## ДОМАШНЄ ЗАВДАННЯ
+### TASKS
 
-**Обов'язково:**
+**Required:**
 
-- Зверстати нову html сторінку використовуючи семантичні теги html. Сторінка має містити: заголовок першого рівня, заголовки другорядні, статті і секції, посилання на інші сторінки, посилання з якорями до секцій цієї сторінки, малюнки.
-- Контент сторінки у цьому документі
+- Create a new html page using semantic html tags. The page should contain: a first-level heading, secondary headings, articles and sections, links to other pages, anchor links to sections of this page, and images.
 
-**Екстра:**
+**Extra:**
 
-- В кінці сторінки додати iframe який буде виводити контент резюме створеного на попередньому уроці.
-  Додати вставку відео з ютюб - посилання
+- At the end of the page, add an iframe that will display the content of the resume created in the previous lesson.
+  Add a video embed from YouTube - link
